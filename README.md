@@ -1,5 +1,10 @@
 ## Bachelor’s thesis in Statistics on the topic of random graphs and their properties with title "Random Graph Generator with Degree Constraints and Hub Nodes".
 
+## Personal Information
+
+- Name: Michela Ropele
+- Graduation Date: November 30, 2023
+
 This project generates, visualizes, analyzes, and saves undirected random graphs with controllable maximum node degree and a definable proportion of hub nodes. It is useful for graph theory experiments, complex network analysis, and simulations of structural graph properties.
 
 ## Main Features
