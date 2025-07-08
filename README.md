@@ -16,7 +16,8 @@ Graduation Date: November 30, 2023
   - Circular layout of nodes.
   - Compact bipartite graph layout.
   - Coloring connected components (clusters).
-  - Histogram of degree distribution.  
+  - Histogram of degree distribution.
+
 **Structural property analysis** of generated graphs: connectivity, bipartiteness, acyclicity
 **Statistical study** of graph properties by varying parameters (n, p).  
 **Saving and loading** graphs to/from files in edge list format.
