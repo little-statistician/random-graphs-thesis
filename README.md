@@ -9,18 +9,13 @@ Graduation Date: November 30, 2023
 
 ## Main Features
 
-**Random graph generation** with binomial edge distribution (Erdős-Rényi model).  
-**Control of maximum node degree**, allowing a proportion of nodes to act as hubs exempt from the degree constraint.  
-**Degree reduction** to enforce degree constraints, using a randomized approach.  
-**Visualization**:  
-  - Circular layout of nodes.
-  - Compact bipartite graph layout.
-  - Coloring connected components (clusters).
-  - Histogram of degree distribution.
-
-**Structural property analysis** of generated graphs: connectivity, bipartiteness, acyclicity
-**Statistical study** of graph properties by varying parameters (n, p).  
-**Saving and loading** graphs to/from files in edge list format.
+- **Random graph generation** with binomial edge distribution (Erdős-Rényi model).  
+- **Control of maximum node degree**, allowing a proportion of nodes to act as hubs exempt from the degree constraint.  
+- **Degree reduction** to enforce degree constraints, using a randomized approach.  
+- **Visualization**: Circular layout of nodes, compact bipartite graph layout, coloring connected components (clusters), histogram of degree distribution.
+- **Structural property analysis** of generated graphs: connectivity, bipartiteness, acyclicity
+- **Statistical study** of graph properties by varying parameters (n, p).  
+- **Saving and loading** graphs to/from files in edge list format.
 
 ## Project Structure
 
