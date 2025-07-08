@@ -4,45 +4,42 @@ This project generates, visualizes, analyzes, and saves undirected random graphs
 
 ## Personal Information
 
-- Name: Michela Ropele
-- Graduation Date: November 30, 2023
+Name: Michela Ropele  
+Graduation Date: November 30, 2023
 
 ## Main Features
 
-- **Random graph generation** with binomial edge distribution (Erdős-Rényi model).
-- **Control of maximum node degree**, allowing a proportion of nodes to act as hubs exempt from the degree constraint.
-- **Degree reduction** to enforce degree constraints, using a randomized approach.
-- **Visualization**:
+**Random graph generation** with binomial edge distribution (Erdős-Rényi model).  
+**Control of maximum node degree**, allowing a proportion of nodes to act as hubs exempt from the degree constraint.  
+**Degree reduction** to enforce degree constraints, using a randomized approach.  
+**Visualization**:  
   - Circular layout of nodes.
   - Compact bipartite graph layout.
   - Coloring connected components (clusters).
   - Histogram of degree distribution.
-- **Structural property analysis** of generated graphs:
-  - Connectivity
-  - Bipartiteness
-  - Acyclicity
-- **Statistical study** of graph properties by varying parameters (n, p).
-- **Saving and loading** graphs to/from files in edge list format.
+**Structural property analysis** of generated graphs: connectivity, bipartiteness, acyclicity  
+**Statistical study** of graph properties by varying parameters (n, p).  
+**Saving and loading** graphs to/from files in edge list format.
 
 ## Project Structure
 
-- `random_graph_with_hub_nodes(...)`: Generates a random graph with degree constraints.
-- `degree_reduction(...)`: Reduces node degrees to respect maximum degree limits.
-- `choose_nodes_to_adjust(...)`: Selects nodes exceeding the max degree excluding hubs.
-- `draw_circular_graph(...)`: Simple circular graph visualization.
-- `draw_subgraphs(...)`: Visualizes connected components with distinct colors.
-- `histogram_of_graph_degrees(...)`: Degree distribution histogram.
-- `compare_degree_distributions(...)`: Visual comparison of degree distributions for different p values.
-- `plot_3d_property_frequency(...)`: 3D plot showing frequency of structural properties over n and p.
-- `write_graphs_on_file(...)`: Saves generated graphs to a file.
-- `read_graphs_from_file(...)`: Reads saved graphs from a file.
+`random_graph_with_hub_nodes(...)`: Generates a random graph with degree constraints.  
+`degree_reduction(...)`: Reduces node degrees to respect maximum degree limits.  
+`choose_nodes_to_adjust(...)`: Selects nodes exceeding the max degree excluding hubs.  
+`draw_circular_graph(...)`: Simple circular graph visualization.  
+`draw_subgraphs(...)`: Visualizes connected components with distinct colors.  
+`histogram_of_graph_degrees(...)`: Degree distribution histogram.  
+`compare_degree_distributions(...)`: Visual comparison of degree distributions for different p values.  
+`plot_3d_property_frequency(...)`: 3D plot showing frequency of structural properties over n and p.  
+`write_graphs_on_file(...)`: Saves generated graphs to a file.  
+`read_graphs_from_file(...)`: Reads saved graphs from a file.  
 
 ## Main Parameters
 
-- `n`: Number of nodes in the graph.
-- `p`: Probability of edge creation (Erdős-Rényi model).
-- `max_degree`: Maximum allowed degree for non-hub nodes.
-- `ratio_hub_nodes`: Proportion of nodes exempt from the max degree constraint (hubs).
+`n`: Number of nodes in the graph.  
+`p`: Probability of edge creation (Erdős-Rényi model).  
+`max_degree`: Maximum allowed degree for non-hub nodes.  
+`ratio_hub_nodes`: Proportion of nodes exempt from the max degree constraint (hubs).  
 
 Example usage:
 ```python
